@@ -9,8 +9,9 @@ The metrics server is commonly used by other Kubernetes add ons, such as the Hor
 It is not deployed by default.
 
 ## Deployment
-In order to deploy metrics-server in your kubernetes master machine clone https://github.com/LandmakTechnology/metric-server.git  and run the following command from
+In order to deploy metrics-server in your kubernetes master machine clone https://github.com/Petertaiwo034/metric-server  and run the following command from
 the top-level directory(metrics-server) of this repository:
+cd metric-server
  
 ```console
 $ kubectl apply -f deploy/1.8+/
