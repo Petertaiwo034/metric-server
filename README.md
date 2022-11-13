@@ -11,9 +11,10 @@ It is not deployed by default.
 ## Deployment
 In order to deploy metrics-server in your kubernetes master machine clone https://github.com/Petertaiwo034/metric-server  and run the following command from
 the top-level directory(metrics-server) of this repository:
-cd metric-server
+
  
 ```console
+cd metric-server
 $ kubectl apply -f deploy/1.8+/
 ```
 
